@@ -35,7 +35,7 @@ resource "yandex_compute_instance" "main-vm" {
 
   metadata = {
     docker-container-declaration = file("${path.module}/declaration.yaml")
-    user-data = file("${path.module}/cloud_config.yaml")
+    user-data = file("${path.module}/cloud_conf.yaml")
     ssh-keys = "ubuntu:${file("~/.ssh/id_rsa.pub")}"
   }
 }
