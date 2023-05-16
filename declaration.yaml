@@ -1,6 +1,6 @@
 spec:
   containers:
-  - image: cr.yandex/crpk1rc50s156kde67fk/paper:port80
+  - image: cr.yandex/crpk1rc50s156kde67fk/paper:latest
     securityContext:
       privileged: false
     stdin: false
