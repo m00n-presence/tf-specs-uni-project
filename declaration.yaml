@@ -1,0 +1,7 @@
+spec:
+  containers:
+  - image: cr.yandex/crpk1rc50s156kde67fk/paper:port80
+    securityContext:
+      privileged: false
+    stdin: false
+    tty: false
